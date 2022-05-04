@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    background-color: burlywood;
+}
+.loop{
+    display: flex;
+}
+
+.mp{
+    width: 50%;
+}
+.gride
+{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    width: 600px;
+    margin: auto;
+}
+.case{
+    height: 150px;
+    width: 200px;
+    font-size: 100px;
+}
+.lol{
+    border-left: none;
+    border-right: none;
+}
+.inv{
+    visibility: hidden;
+}
+.pm , .gm{
+width: 25%;
+}
+.pi{
+    float: left;
+}
+h4{
+    margin-bottom: 0;
+}
+#WIN, h5{
+    border:  2px solid black;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pol1 , #pol3, #pol5, #pol7, #pol9{
+    border: none;
+    border-radius: 30px;
+}
+#pol2, #pol4, #pol8, #pol6{
+    border-radius: 30px;
+}
+#pol1:hover, #pol2:hover , #pol3:hover, #pol4:hover, #pol5:hover,#pol6:hover, #pol7:hover,#pol8:hover, #pol9:hover{
+    background-color: rgb(219, 214, 214);
+}
